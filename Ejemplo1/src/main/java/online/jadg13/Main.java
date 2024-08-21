@@ -19,13 +19,11 @@ public class Main {
         Esto es un comentario multilinea
         Mostrar los datos de las variables
          */
-        System.out.println("*********************************************");
+        System.out.println("*".repeat(113));
         System.out.println("Nombre de la asignatura: "+ asignatura);
         System.out.println("Numero: "+ num);
         System.out.println("Precio: "+ precio);
         System.out.println("Peso: "+ peso);
-        System.out.println("*********************************************");
-
-
+        System.out.println("*".repeat(113));
     }
 }
