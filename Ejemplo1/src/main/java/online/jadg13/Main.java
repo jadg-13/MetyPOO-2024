@@ -19,6 +19,16 @@ public class Main {
         Esto es un comentario multilinea
         Mostrar los datos de las variables
          */
+
+        System.out.print("\u001B[36m");
+       /* Cambiar el color de texto  30: Negro
+        31: Rojo
+        32: Verde
+        33: Amarillo
+        34: Azul
+        35: Magenta
+        36: Cyan
+        37: Blanco */
         System.out.println("*".repeat(113));
         System.out.println("Nombre de la asignatura: "+ asignatura);
         System.out.println("Numero: "+ num);
